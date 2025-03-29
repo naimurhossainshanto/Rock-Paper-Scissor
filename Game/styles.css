@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6EA4BF;
+}
+h1{
+    text-align: center;
+}
+.containter{
+    width: 90vw;
+    margin: auto;
+    height: 60vh;
+}
+.game{
+    width: 30vw;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 5px;
+}
+.box{
+    width: 10vw;
+    height: 19vh;
+    font-size: 42px;
+    background-color:#C2EFEB;
+    color: red;
+    transition: background-color 0.5s;
+}
+.box:hover{
+    background-color: aliceblue;
+    
+}
+.restart{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.restart button{
+    background-color:#C2EFEB;
+    font-size: 32px;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    transition: background-color 0.5s ;
+}
+.newgamebtn button{
+    background-color:#C2EFEB;
+    font-size: 32px;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    transition: background-color 0.5s ;
+}
+.restart button:hover{
+    background-color: rgba(0, 0, 0, 0.512);
+    color: white;
+}
+.newgamebtn button:hover{
+    background-color: rgba(0, 0, 0, 0.512);
+    color: white;
+}
+.messagecontainer{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    top: -653px;
+    background-color: #1b5a55;;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+}
+.hide{ 
+    display: none;
+}
